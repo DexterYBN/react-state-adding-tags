@@ -1,0 +1,70 @@
+.App {
+    margin: 50px 30%;
+}
+
+form {
+    display: flex;
+}
+
+.inputAddText {
+    width: 350px;
+    height: 30px;
+}
+
+.error {
+    width: 350px;
+    height: 30px;
+    border: 1px solid brown;
+    box-shadow: 0px 0px 10px 1px brown;
+}
+
+.fail {
+    margin: 5px 0;
+    color: brown;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.addTextButton {
+    background: transparent;
+    background-color: rgb(17, 63, 227);
+    color: white;
+    width: 90px;
+    cursor: pointer;
+}
+
+.span {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.li {
+    display: flex;
+    margin-left: 10px;
+    height: 20px;
+    align-items: center;
+    border-radius: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: blue;
+    background-color: rgb(117, 184, 251);
+}
+
+.x {
+    margin-left: 19px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    width: 15px;
+    justify-content: center;
+    height: 15px;
+    background-color: rgb(43, 124, 255);
+    cursor: pointer;
+}
